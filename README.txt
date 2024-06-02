@@ -5,3 +5,5 @@ git config --global user.name "pavanpatil98"
 ./gradlew clean
 ./gradlew build
 ./gradlew publishToMavenLocal
+
+./gradlew build --refresh-dependencies
